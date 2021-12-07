@@ -1,0 +1,10 @@
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+
+  &__left,
+  &__right {
+    flex-basis: 45%;
+  }
+}

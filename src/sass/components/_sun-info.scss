@@ -1,0 +1,168 @@
+.sun-info {
+  padding: 30px;
+  border-radius: 20px;
+  background-color: var(--color-light);
+  box-shadow: 3px 3px 15px rgba($color: #000000, $alpha: 0.1);
+
+  &__title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-deepest-fig);
+    margin-bottom: 20px;
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: var(--color-white-desert);
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &-content {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-extra {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 30px;
+
+      & svg {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+      }
+
+      & path {
+        fill: var(--color-periwinkle-blue);
+      }
+    }
+
+    &-title {
+      font-size: 20px;
+      line-height: 1.2;
+      font-weight: 600;
+      color: var(--color-deepest-fig);
+      vertical-align: middle;
+    }
+
+    &-dots {
+      margin-left: auto;
+      color: var(--color-natrolite);
+      cursor: pointer;
+    }
+  }
+
+  &__list {
+    padding-top: 20px;
+    margin-top: 30px;
+    border-top: 2px solid rgba($color: gray, $alpha: 0.1);
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+    &-title {
+      display: flex;
+      align-items: center;
+
+      span {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 500;
+        color: var(--color-periwinkle-blue);
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+
+      path {
+        fill: var(--color-natrolite);
+      }
+    }
+
+    &-sunrise,
+    &-sunset {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      span {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.2;
+        color: var(--color-periwinkle-blue);
+        opacity: 0.5;
+      }
+
+      & svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+
+      & path {
+        fill: var(--color-natrolite);
+      }
+    }
+  }
+}
+
+.astronomy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & svg {
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+
+    path {
+      fill: var(--color-natrolite);
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  &__name {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: var(--color-periwinkle-blue);
+    opacity: 0.5;
+  }
+
+  &__time {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: var(--color-orchid);
+  }
+}
