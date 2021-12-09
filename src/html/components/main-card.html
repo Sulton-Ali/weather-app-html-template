@@ -1,0 +1,50 @@
+<div class="main-card">
+  <div class="main-card__extra">@@include('../components/select.html')</div>
+  <div class="main-card__content">
+    <div class="main-card__weather-icon">
+      <img src="./img/cloudy_sunny_color.png" alt="weather icon" />
+    </div>
+    <span class="main-card__current-day">Today, 14 April</span>
+    <span class="main-card__temp">29<sup>o</sup></span>
+    <div class="span main-card__status">Sunny</div>
+    <div class="main-card__stats">
+      <div class="main-card__stats-item">
+        <div class="main-card__stats-name">
+          <svg
+            id="status"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M11 10h-11v-2h11c.552 0 1-.448 1-1s-.448-1-1-1c-.403 0-.747.242-.905.587l-1.749-.956c.499-.965 1.494-1.631 2.654-1.631 3.971 0 3.969 6 0 6zm7 7c0-1.656-1.344-3-3-3h-15v2h15c.552 0 1 .448 1 1s-.448 1-1 1c-.403 0-.747-.242-.905-.587l-1.749.956c.499.965 1.494 1.631 2.654 1.631 1.656 0 3-1.344 3-3zm1.014-7.655c.082-.753.712-1.345 1.486-1.345.827 0 1.5.673 1.5 1.5s-.673 1.5-1.5 1.5h-20.5v2h20.5c1.932 0 3.5-1.568 3.5-3.5s-1.568-3.5-3.5-3.5c-1.624 0-2.977 1.116-3.372 2.617l1.886.728z"
+            />
+          </svg>
+          <span>Wind</span>
+        </div>
+        <div class="main-card__stats-divider"></div>
+        <div class="main-card__stats-value">19 km/h</div>
+      </div>
+      <div class="main-card__stats-item">
+        <div class="main-card__stats-name">
+          <svg
+            width="24px"
+            height="24px"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g>
+              <path
+                d="M12 3.1L7.05 8.05a7 7 0 1 0 9.9 0L12 3.1zm0-2.828l6.364 6.364a9 9 0 1 1-12.728 0L12 .272z"
+              />
+            </g>
+          </svg>
+          <span>Hum</span>
+        </div>
+        <div class="main-card__stats-divider"></div>
+        <div class="main-card__stats-value">22%</div>
+      </div>
+    </div>
+  </div>
+</div>
